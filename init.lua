@@ -12,7 +12,7 @@ return {
     auto_quit = false,     -- automatically quit the current session after a successful update
   },
   -- Set colorscheme to use
-  colorscheme = "catppuccin",
+  colorscheme = "github_dark_dimmed",
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
@@ -39,7 +39,7 @@ return {
       disabled = { -- disable formatting capabilities for the listed language servers
         -- "sumneko_lua",
       },
-      timeout_ms = 1000, -- default format timeout
+      timeout_ms = 5000, -- default format timeout
       -- filter = function(client) -- fully override the default formatting function
       --   return true
       -- end
