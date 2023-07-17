@@ -1,6 +1,9 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.project.nvim-spectre" },
-  { import = "astrocommunity.motion.leap-nvim" },
+  { import = "astrocommunity.git.neogit" },
+  { import = "astrocommunity.motion.flash-nvim" },
+  { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.colorscheme.github-nvim-theme" },
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
 }

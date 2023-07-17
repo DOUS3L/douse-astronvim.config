@@ -4,5 +4,8 @@ return {
   },
   {
     "catppuccin/nvim",
-  }
+  },
+  {
+    "felipeagc/fleet-theme-nvim",
+  },
 }
